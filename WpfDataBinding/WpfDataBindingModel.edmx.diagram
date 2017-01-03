@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7b4c0efea76f4d0e804cc424c105f54f" Name="Diagram1">
+        <EntityTypeShape EntityType="WpfDataBindingModel.Customer" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WpfDataBindingModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WpfDataBindingModel.OrderItem" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WpfDataBindingModel.OrderItemOption" Width="1.5" PointX="7.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WpfDataBindingModel.OrderStatu" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WpfDataBindingModel.Product" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WpfDataBindingModel.ProductOption" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WpfDataBindingModel.ProductSize" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <AssociationConnector Association="WpfDataBindingModel.FK_Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="WpfDataBindingModel.FK_Order_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="WpfDataBindingModel.FK_OrderItem_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="WpfDataBindingModel.FK_OrderItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="WpfDataBindingModel.FK_OrderItem_ProductSize" ManuallyRouted="false" />
+        <AssociationConnector Association="WpfDataBindingModel.FK_OrderItemOption_OrderItem" ManuallyRouted="false" />
+        <AssociationConnector Association="WpfDataBindingModel.FK_OrderItemOption_ProductOption" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
